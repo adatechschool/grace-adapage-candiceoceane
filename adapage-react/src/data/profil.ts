@@ -1,11 +1,38 @@
-import imagePortrait from "../assets/img3.jpg";
+import imagePortrait from "../assets/img1.jpg";
+import image2 from "../assets/img2.jpg";
+import image3 from "../assets/img3.jpg";
+import image4 from "../assets/img4.jpg";
+import image5 from "../assets/img5.jpg";
+import image6 from "../assets/img6.jpg";
+import image7 from "../assets/img7.jpg";
+import image8 from "../assets/img8.jpg";
+import image9 from "../assets/img9.jpg";
+import image10 from "../assets/img10.jpg";
+import image11 from "../assets/img11.jpg";
+import image12 from "../assets/img12.jpg";
+import image13 from "../assets/img13.jpg";
 import type { Profil } from "../Types/data";
 
 export const profil: Profil = {
   name: "ELIPS",
   image: imagePortrait,
   description:
-    "Drag queer bordelaise. Révélée par Drag Race France, Elips façonne elle-même ses costumes, ses masques, ses mondes. Inspirée par Bowie, Almodovar et les figures androgynes qui ont osé avant elle, elle transforme chaque scène en manifeste : on peut être feu et douceur, force et vulnérabilité, tout à la fois. Miss Sympathie au grand cœur, elle rassemble autour d'elle la Familips et nous rappelle que le drag, c'est aussi — surtout — de l'amour.",
+    "Drag queer bordelaise. Révélée par Drag Race France, Elips façonne elle-même ses costumes, ses masques, ses mondes. Inspirée par Bowie, Almodovar et les figures androgynes qui ont osé avant elle, elle transforme chaque scène en manifeste : on peut être feu et douceur, force et vulnérabilité, tout à la fois. Miss Sympathie au grand cœur, elle rassemble autour d'elle la Familips et nous rappelle que le drag, c'est aussi surtout de l'amour.",
+  images: [
+    // Galerie carrousel
+    image2,
+    image3,
+    image4,
+    image5,
+    image6,
+    image7,
+    image8,
+    image9,
+    image10,
+    image11,
+    image12,
+    image13,
+  ],
 
   infoCard: [
     { title: "Nationalité", value: "Française" },
@@ -40,11 +67,11 @@ export const profil: Profil = {
     },
     {
       text: "Adolescent, j’ai dû faire des concessions sur mon avenir. J’ai beaucoup hésité entre le théâtre et les arts plastiques, et le drag permet de réunir tout ça avec d’autres domaines comme le chant, la danse. C’est ce qui m’a tout de suite attiré.",
-      source: "interview magazine Stratégies",
+      source: "Interview magazine Stratégies",
     },
     {
       text: "C’est une personnalité engagée qui veut faire passer des messages à travers ses performances et ses tenues. Souvent, on la qualifie d’intense et mystérieuse. C’est une extension de moi-même qui me permet de faire des choses que je ne ferais pas en Eli, et où je me sens plus fort.",
-      source: "interview magazine Stratégies",
+      source: "Interview magazine Stratégies",
     },
   ],
 };

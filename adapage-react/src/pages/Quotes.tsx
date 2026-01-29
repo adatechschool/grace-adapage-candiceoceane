@@ -3,7 +3,7 @@ import { QuotesComponents } from "../components/QuotesComponents";
 
 export default function Quotes() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-elips-turquoise/20 to-elips-cream/40 py-16 px-4">
+    <section className="min-h-screen bg-card py-16 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-elips-orange mb-12">
           Citations

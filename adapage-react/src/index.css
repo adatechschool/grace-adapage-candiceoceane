@@ -82,10 +82,10 @@
 
 @theme {
   --font-sans: "Poppins", sans-serif;
+  --color-card: #fff5e6;
   --color-elips-orange: #e85a2b;
   --color-elips-leather: #c44a2d;
-  --color-elips-turquoise: #3bbcc0;
   --color-elips-gold: #d4a84b;
-  --color-elips-cream: #f8e6d4;
+  --color-elips-cream: #f8f4f0;
   --color-elips-black: #1a1a1a;
 }

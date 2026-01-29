@@ -4,7 +4,7 @@ import type { InfoCard as InfoCardType } from "../Types/data";
 
 export default function InfoCard() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-elips-turquoise/10 to-elips-cream/50 py-16 px-4">
+    <section className="min-h-screen bg-card py-16 px-4">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-elips-orange mb-12">
           Infos

@@ -17,15 +17,13 @@ export function TimelineComponents({ timeline, isLast }: TimelineProps) {
 
       {/* Ligne centrale avec point */}
       <div className="flex flex-col items-center">
-        <div className="w-5 h-5 bg-elips-orange rounded-full border-4 border-elips-cream shadow-lg"></div>
-        {!isLast && (
-          <div className="w-1 h-full bg-gradient-to-b from-elips-orange to-elips-turquoise"></div>
-        )}
+        <div className="w-5 h-5 shrink-0 bg-elips-orange rounded-full shadow-lg"></div>
+        {!isLast && <div className="w-1 h-full bg-elips-orange"></div>}
       </div>
 
       {/* Colonne droite : Description */}
       <div className="w-1/2 pl-8 py-6">
-        <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg border border-elips-orange/20 shadow-md hover:shadow-lg transition-shadow">
+        <div className="bg-white/80  p-4 rounded-lg border border-elips-orange/20 shadow-md ">
           <p className="text-elips-black/80">{timeline.description}</p>
         </div>
       </div>

@@ -2,6 +2,7 @@ export type Profil = {
   name: string;
   image: string;
   description: string;
+  images: string[];
   infoCard: InfoCard[];
   timeline: Timeline[];
   quotes: Quotes[];

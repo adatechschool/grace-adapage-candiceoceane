@@ -11,7 +11,7 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="bg-white/80 backdrop-blur-sm shadow-md sticky top-0 z-50">
+    <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -28,7 +28,7 @@ export function Navbar() {
               <Link
                 key={link.to}
                 to={link.to}
-                className="text-elips-black font-medium hover:text-elips-orange transition-colors"
+                className="text-elips-gold font-medium hover:text-elips-orange transition-colors"
               >
                 {link.label}
               </Link>
@@ -47,7 +47,7 @@ export function Navbar() {
 
       {/* Mobile navigation */}
       <div
-        className={`fixed top-20 left-0 w-full bg-elips-cream/95 backdrop-blur-sm lg:hidden overflow-hidden transition-all duration-500 ${
+        className={`fixed top-20 left-0 w-full bg-card lg:hidden overflow-hidden transition-all duration-500 ${
           toggleMenu ? "h-screen opacity-100" : "h-0 opacity-0"
         }`}
       >

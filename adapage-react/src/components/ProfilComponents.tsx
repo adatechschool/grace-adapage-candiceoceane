@@ -9,7 +9,7 @@ export function ProfilComponents({ name, description, image }: ProfilProps) {
     <section className="flex flex-col md:flex-row items-center gap-10">
       {/* Image */}
       <div className="relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-elips-orange to-elips-gold rounded-full blur-2xl opacity-30"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-elips-orange to-elips-gold rounded-full blur-2xl opacity-30"></div>
         <img
           src={image}
           alt={name}
@@ -20,7 +20,7 @@ export function ProfilComponents({ name, description, image }: ProfilProps) {
       {/* Texte */}
       <div className="text-center md:text-left max-w-xl">
         <h1 className="text-5xl font-bold text-elips-orange mb-4">{name}</h1>
-        <div className="w-20 h-1 bg-gradient-to-r from-elips-orange to-elips-gold mb-6 mx-auto md:mx-0"></div>
+        <div className="w-20 h-1 bg-linear-to-r from-elips-orange to-elips-gold mb-6 mx-auto md:mx-0"></div>
         <p className="text-lg text-elips-black/80 leading-relaxed">
           {description}
         </p>

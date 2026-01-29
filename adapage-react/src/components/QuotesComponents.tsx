@@ -6,7 +6,7 @@ interface QuotesProps {
 
 export function QuotesComponents({ quotes }: QuotesProps) {
   return (
-    <article className="relative bg-elips-cream/30 border-l-4 border-elips-orange rounded-r-lg p-6 my-6 shadow-md">
+    <article className="relative bg-white/80 border-l-4 border-elips-orange rounded-r-lg p-6 my-6 shadow-md">
       {/* Guillemet décoratif */}
       <span className="absolute top-2 left-4 text-6xl text-elips-orange/20 font-serif">
         "
